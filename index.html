@@ -26,11 +26,11 @@
             <label for="email" >Email Address</label>
             <input type="email" name="user_email" id="email" placeholder="Required" required><br>
             <label for="phone" >Phone Number</label>
-            <input type="tel" name="user_phone" id="phone"><br>
+            <input type="tel" name="user_phone" id="phone" placeholder="(123)-456-7890"><br>
             <label for="address" >Street Address</label>
-            <input type="text" name="user_address" id="address"><br>
-            <label for="city">City                </label>
-            <input type="text" name="user_city" id="city"><br>
+            <input type="text" name="user_address" id="address" placeholder="Required" required><br>
+            <label for="city">City</label>
+            <input type="text" name="user_city" id="city" placeholder="Required" required><br>
             <label for="state">State</label>
             <select name="user_state" id="state">
                     <option value=""disabled selected>Choose State</option>
@@ -87,7 +87,7 @@
                     <option value="WY">Wyoming</option>
             </select><br>
             <label for="zip">Zip Code</label>
-            <input type="text" name="user_zip" id="zip">
+            <input type="text" name="user_zip" id="zip" placeholder="Required" required>
         </fieldset>
         <fieldset class="newsletter">
             <legend>Newsletter</legend>
@@ -99,7 +99,6 @@
             <label for="css">CSS News</label><br>
             <input type="checkbox" id="java" value="java" name="subscription">
             <label for="java">Javascript News</label>
-
             <p>Newsletter format</p>
             <input type="radio" id="html_text" name="format" value="html_text">
             <label for="html_text">HTML</label><br>
@@ -112,7 +111,7 @@
             <button type="submit" name="submit" >Sign Up</button>
         </fieldset>
         <footer>
-            <h6><em>Copyright The Code REVIEW</em></h6></footer>
+            <h6><em>Copyright The Code Review</em></h6></footer>
 
 
     </form>

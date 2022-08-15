@@ -3,6 +3,7 @@
 }
 body{
     font-family: 'Signika', sans-serif;
+    background: linear-gradient(white 15%,rgb(255, 174, 145) 65%, orangered);
     }
 header{
     text-align: center;
@@ -43,6 +44,18 @@ input::placeholder{
     font-style: italic;
     text-align: right;
     padding-right: 10px;
+    color: red;
+}
+input:hover{
+    border:solid black 3px
+}
+input:focus,
+select:focus,
+textarea:focus{
+    background: darkslategray;
+    border:solid black 3px;
+    color: aliceblue;
+
 }
 .contact{
     border-bottom: 2px solid;
@@ -50,8 +63,12 @@ input::placeholder{
 .comment{
     margin: 30px 0 10px;
 }
+input:checked + label{
+font-weight: 700;
+text-decoration: underline;
+}
 button{
-    border: none;
+    border: solid black 5px;
     background-color: #52bab3;
     color: white;
     height: 50px;
@@ -63,7 +80,6 @@ button{
 }
 footer h6{
     text-align: center;
-    color: gray;
     margin-top: 25px;
     margin-bottom: 100px;
 }
@@ -76,14 +92,9 @@ footer h6{
 width: 75%;
 max-width:800px
 }
-label{
+.contact label{
     display: inline-block;
     width: 20%;
     max-width: 150px;
 }
-
-
-
-
-
 }
