@@ -15,16 +15,26 @@ h1{
     margin: 0 auto;
     margin: -8px;
 }
-
+legend{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 20px 0;
+    }
+input,
+select,
+textarea,
+fieldset{
+    border: none;
+}
 .contact input,
-.contact select{
+.contact select,
+label{
     padding: 7.5px;
 }
 .contact input,
 .contact select,
 textarea{
     margin:.75em 0 1.25em;
-    border: none;
     border-radius: 5px;
     background-color: rgb(235,235, 235);
     width: 95%;
@@ -38,7 +48,7 @@ input::placeholder{
     border-bottom: 2px solid;
 }
 .comment{
-    margin: 30px 0;
+    margin: 30px 0 10px;
 }
 button{
     border: none;
@@ -56,4 +66,24 @@ footer h6{
     color: gray;
     margin-top: 25px;
     margin-bottom: 100px;
+}
+
+@media (min-width:768px) {
+
+.contact input,
+.contact select
+{
+width: 75%;
+max-width:800px
+}
+label{
+    display: inline-block;
+    width: 20%;
+    max-width: 150px;
+}
+
+
+
+
+
 }
