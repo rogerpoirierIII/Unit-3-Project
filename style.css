@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Signika', sans-serif;
+    }
+header{
+    text-align: center;
+    border-bottom: double 7.5px;    
+}
+h1{
+    background-color: rgb(60, 60, 75);
+    color: aliceblue;
+    padding:30px 5px;
+    margin: 0 auto;
+    margin: -8px;
+}
+
+.contact input,
+.contact select{
+    padding: 7.5px;
+}
+.contact input,
+.contact select,
+textarea{
+    margin:.75em 0 1.25em;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(235,235, 235);
+    width: 95%;
+}
+input::placeholder{
+    font-style: italic;
+    text-align: right;
+    padding-right: 10px;
+}
+.contact{
+    border-bottom: 2px solid;
+}
+.comment{
+    margin: 30px 0;
+}
+button{
+    border: none;
+    background-color: #52bab3;
+    color: white;
+    height: 50px;
+    width: 95%;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 700;
+    
+}
+footer h6{
+    text-align: center;
+    color: gray;
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
