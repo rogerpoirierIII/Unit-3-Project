@@ -40,6 +40,10 @@ textarea{
     background-color: rgb(235,235, 235);
     width: 95%;
 }
+#zip{
+    width: 47.5%;
+    margin-right:47.5%;
+}
 input::placeholder{
     font-style: italic;
     text-align: right;
@@ -69,7 +73,7 @@ text-decoration: underline;
 }
 button{
     border: solid black 5px;
-    background-color: #52bab3;
+    background-color: rgb(46, 78, 109);
     color: white;
     height: 50px;
     width: 95%;
@@ -96,5 +100,9 @@ max-width:800px
     display: inline-block;
     width: 20%;
     max-width: 150px;
+}
+#zip{
+    width: 25%;
+    margin-right: 50%;
 }
 }
