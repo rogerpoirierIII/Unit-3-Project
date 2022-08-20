@@ -23,11 +23,11 @@
             <legend>Contact Information</legend>
             <div class="item1 item">
             <label for="name" >Full Name</label>
-            <input type="text" name="user_name" id="name" placeholder="Required"  class="transition"><br>
+            <input type="text" name="user_name" id="name" placeholder="Required"  required class="transition"><br>
             </div>
             <div class="item2 item">
             <label for="email" >Email Address</label>
-            <input type="email" name="user_email" id="email" placeholder="Required"   class="transition"><br>
+            <input type="email" name="user_email" id="email" placeholder="Required"   required class="transition"><br>
             </div>
             <div class="item3 item">
             <label for="phone" >Phone Number</label>
@@ -121,7 +121,7 @@
             <label for="plain_text">Plain text</label><br>
             <div class="comment">
             <label for="comment">Other topics you'd like to hear about</label>
-            <textarea name="user_comment" id="comment" cols="30" rows="7" class="transition"></textarea>
+            <textarea name="user_comment" id="comment" cols="30" rows="7" placeholder="optional" class="transition"></textarea>
             </div>
             <button type="submit" name="submit" >Sign Up</button>
         </fieldset>
